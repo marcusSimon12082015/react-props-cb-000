@@ -1,3 +1,4 @@
+
 class MovieCard extends React.Component {
   render() {
     return (
@@ -12,6 +13,11 @@ class MovieCard extends React.Component {
     );
   }
 }
+
+MovieCard.defaultProps = {
+  poster: 'http://i.imgur.com/bJw8ndW.png'
+};
+
 
 const madMaxGenres = ['Action', 'Adventure', 'Science Fiction', 'Thriller'];
 
